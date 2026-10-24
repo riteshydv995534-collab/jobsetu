@@ -1,0 +1,7 @@
+node_modules/
+.env
+dist/
+coverage/
+uploads/demo-doc-*
+.DS_Store
+*.log

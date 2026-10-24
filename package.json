@@ -1,0 +1,15 @@
+{
+  "name": "jansetu-monorepo",
+  "version": "1.0.0",
+  "description": "JanSetu - Unified Digital Platform for Accessible Public Documentation & Fair Benefit Verification",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": ["hackathon", "techtrix", "mern", "govtech", "jansetu"],
+  "author": "TechTrix JanSetu Team",
+  "license": "MIT"
+}
